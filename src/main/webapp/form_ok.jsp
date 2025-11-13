@@ -11,6 +11,7 @@
     <title>form_ok.jsp</title>
 </head>
 <body>
+<form method="post" action="form.jsp"></form>
 
 </body>
 </html>
