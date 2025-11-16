@@ -9,5 +9,6 @@
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 <a href="form.jsp">form.jsp</a>
+<a href="list.jsp">list.jsp</a>
 </body>
 </html>
