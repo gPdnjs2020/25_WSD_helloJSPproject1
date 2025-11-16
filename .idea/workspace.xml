@@ -74,7 +74,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Tomcat 서버.Tomcat 9.0.111.executor": "Run",
-    "git-widget-placeholder": "feature/view",
+    "git-widget-placeholder": "feature/edit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -211,7 +211,7 @@
       <workItem from="1762996947638" duration="3682000" />
       <workItem from="1763020680231" duration="851000" />
       <workItem from="1763082167085" duration="2411000" />
-      <workItem from="1763290318094" duration="8941000" />
+      <workItem from="1763290318094" duration="9328000" />
     </task>
     <servers />
   </component>
