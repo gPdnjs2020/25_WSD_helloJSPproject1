@@ -8,10 +8,7 @@
 <h1><%= "Hello World!" %></h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
-<<<<<<< HEAD
 <a href="form.html">form.html</a>
-=======
-<a href="form.jsp">form.jsp</a>
->>>>>>> 36ac9af (add form.jsp in index)
+<a href="list.jsp">list.jsp</a>
 </body>
 </html>
