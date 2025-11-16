@@ -10,10 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a88fd3e-28ae-4ad4-9725-4f6f252b3934" name="변경" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" afterDir="false" />
+=======
+>>>>>>> 36ac9af (add form.jsp in index)
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +66,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Docker.tomcat9_docker.executor&quot;: &quot;Run&quot;,
@@ -78,6 +82,23 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.tomcat9_docker.executor": "Run",
+    "Maven.HelloJSPProject [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat 서버.Tomcat 9.0.111.executor": "Run",
+    "git-widget-placeholder": "feature/form",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> 36ac9af (add form.jsp in index)
   }
 }</component>
   <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.111">
