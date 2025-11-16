@@ -84,13 +84,19 @@
 <p>작성자: <%= author %></p>
 <p>날짜: <%= (regdate.length() > 10) ? regdate.substring(0, 10) : regdate %></p>
 <p>내용:<br/><pre><%= content %></pre></p>
+
+<p>
+    <a href="edit.html?id=<%= id %>">수정하기</a> |
+    <a href="delete_ok.jsp?id=<%= id %>" onclick="return confirm('정말 삭제하시겠습니까?');">삭제하기</a>
+</p>
+
 <a href="list.jsp">목록으로 돌아가기</a>
 </body>
 </html>
 <%
 } catch(Exception e){
 %>
-<h3>오류 발생: <%= e.getMessage() %></h3>
+<h3><%= e.getMessage() %></h3>
 <a href="list.jsp">목록으로 돌아가기</a>
 <%
     }
