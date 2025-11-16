@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a88fd3e-28ae-4ad4-9725-4f6f252b3934" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +218,7 @@
       <workItem from="1762996947638" duration="3682000" />
       <workItem from="1763020680231" duration="851000" />
       <workItem from="1763082167085" duration="2411000" />
-      <workItem from="1763290318094" duration="11045000" />
+      <workItem from="1763290318094" duration="11357000" />
     </task>
     <servers />
   </component>
