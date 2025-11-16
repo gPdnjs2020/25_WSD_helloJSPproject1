@@ -78,26 +78,31 @@
 <head>
     <meta charset="UTF-8" />
     <title>글 상세보기</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
-<body>
-<h2><%= title %></h2>
-<p>작성자: <%= author %></p>
-<p>날짜: <%= (regdate.length() > 10) ? regdate.substring(0, 10) : regdate %></p>
-<p>내용:<br/><pre><%= content %></pre></p>
+<body class="font-sans">
+<div class="container my-4">
+    <h2 class="mb-4"><%= title %></h2>
+    <p><strong>작성자:</strong> <%= author %></p>
+    <p><strong>날짜:</strong> <%= (regdate.length() > 10) ? regdate.substring(0, 10) : regdate %></p>
+    <div class="border p-3 mb-4" style="white-space: pre-wrap;">
+        <%= content %>
+    </div>
 
-<p>
-    <a href="edit.html?id=<%= id %>">수정하기</a> |
-    <a href="delete_ok.jsp?id=<%= id %>" onclick="return confirm('정말 삭제하시겠습니까?');">삭제하기</a>
-</p>
+    <p>
+        <a href="edit.html?id=<%= id %>" class="btn btn-warning">수정하기</a>
+        <a href="delete_ok.jsp?id=<%= id %>" onclick="return confirm('정말 삭제하시겠습니까?');" class="btn btn-danger">삭제하기</a>
+    </p>
 
-<a href="list.jsp">목록으로 돌아가기</a>
+    <a href="list.jsp" class="btn btn-secondary">목록으로 돌아가기</a>
+</div>
 </body>
 </html>
 <%
 } catch(Exception e){
 %>
 <h3><%= e.getMessage() %></h3>
-<a href="list.jsp">목록으로 돌아가기</a>
+<a href="list.jsp" class="btn btn-secondary">목록으로 돌아가기</a>
 <%
     }
 %>

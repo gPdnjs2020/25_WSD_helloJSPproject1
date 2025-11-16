@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a88fd3e-28ae-4ad4-9725-4f6f252b3934" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Tomcat 서버.Tomcat 9.0.111.executor": "Run",
-    "git-widget-placeholder": "feature/delete",
+    "git-widget-placeholder": "feature/bootstrap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -219,7 +218,7 @@
       <workItem from="1762996947638" duration="3682000" />
       <workItem from="1763020680231" duration="851000" />
       <workItem from="1763082167085" duration="2411000" />
-      <workItem from="1763290318094" duration="10689000" />
+      <workItem from="1763290318094" duration="11045000" />
     </task>
     <servers />
   </component>
