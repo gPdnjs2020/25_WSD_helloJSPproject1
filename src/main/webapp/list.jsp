@@ -19,6 +19,7 @@
     </thead>
     <tbody id="tbody"></tbody>
 </table>
+
 <script>
     fetch('https://6918c6d821a96359487125a2.mockapi.io/crudjspproject')
         .then(res => res.json())
@@ -27,18 +28,18 @@
             for (let i = 0; i < data.length; i++) {
                 let item = data[i];
                 t += '<tr>'
-                    + '<td>' + (i+1) + '</td>'
+                    + '<td>' + (i + 1) + '</td>'
                     + '<td>' + item.title + '</td>'
                     + '<td>' + item.author + '</td>'
-                    + '<td>' + (item.regdate ? item.regdate.slice(0,10) : '[날짜없음]') + '</td>'
+                    + '<td>' + (item.regdate ? item.regdate.slice(0, 10) : '[날짜없음]') + '</td>'
                     + '<td>'
-                    + '<a href="edit.html?id=' + item.id + '">수정</a> | '
-                    + '<a href="delete_ok.jsp?id=' + item.id + '">삭제</a>'
+                    + '<a href="view.jsp?id=' + item.id + '">상세보기</a>'
                     + '</td></tr>';
             }
             document.getElementById('tbody').innerHTML = t;
         });
 </script>
+
 <a href="write.html">새글 작성</a>
 </body>
 </html>
