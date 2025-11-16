@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a88fd3e-28ae-4ad4-9725-4f6f252b3934" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/root.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/root.war" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.Tomcat.executor": "Run",
     "Docker.tomcat9_docker.executor": "Run",
+    "Maven.HelloJSPProject [clean].executor": "Run",
     "Maven.HelloJSPProject [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -177,6 +181,24 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Tomcat" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="tomcat9.0" />
+          <option name="containerName" value="tomcat_container" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8000" />
+                <option name="hostPort" value="8000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="tomcat9_docker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -195,6 +217,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.Tomcat" />
       <item itemvalue="Docker.tomcat9_docker" />
       <item itemvalue="Tomcat 서버.Tomcat 9.0.111" />
     </list>
@@ -218,7 +241,7 @@
       <workItem from="1762996947638" duration="3682000" />
       <workItem from="1763020680231" duration="851000" />
       <workItem from="1763082167085" duration="2411000" />
-      <workItem from="1763290318094" duration="11357000" />
+      <workItem from="1763290318094" duration="12094000" />
     </task>
     <servers />
   </component>
