@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>목록</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="font-sans">
 <h2>목록 보기</h2>
-<table border="1">
+<table border="1" class="table table-striped table-bordered">
     <thead>
     <tr>
         <th>번호</th>
@@ -33,13 +34,13 @@
                     + '<td>' + item.author + '</td>'
                     + '<td>' + (item.regdate ? item.regdate.slice(0, 10) : '[날짜없음]') + '</td>'
                     + '<td>'
-                    + '<a href="view.jsp?id=' + item.id + '">상세보기</a>'
+                    + '<a class="btn btn-primary" href="view.jsp?id=' + item.id + '">상세보기</a>'
                     + '</td></tr>';
             }
             document.getElementById('tbody').innerHTML = t;
         });
 </script>
 
-<a href="write.html">새글 작성</a>
+<a href="write.html" class="btn btn-primary">새글 작성</a>
 </body>
 </html>
