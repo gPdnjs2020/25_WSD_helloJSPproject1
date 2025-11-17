@@ -1,5 +1,19 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" import="java.net.*,java.io.*,java.nio.charset.StandardCharsets" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" import="java.net.*,java.io.*,java.nio.charset.StandardCharsets"
+         import="java.net.*,java.io.*,java.nio.charset.StandardCharsets,javax.net.ssl.*,java.security.cert.X509Certificate" %>
 <%
+    // SSL 인증서 검증 비활성화 (임시 개발용) - 시작
+    TrustManager[] trustAllCerts = new TrustManager[] {
+            new X509TrustManager() {
+                public java.security.cert.X509Certificate[] getAcceptedIssuers() { return null; }
+                public void checkClientTrusted(X509Certificate[] certs, String authType) {}
+                public void checkServerTrusted(X509Certificate[] certs, String authType) {}
+            }
+    };
+    SSLContext sc = SSLContext.getInstance("TLS");
+    sc.init(null, trustAllCerts, new java.security.SecureRandom());
+    HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+    HttpsURLConnection.setDefaultHostnameVerifier((hostname, ses) -> true);
+
     String id = request.getParameter("id");
     if (id == null || id.trim().isEmpty()) {
         response.sendRedirect("list.jsp");
@@ -102,7 +116,6 @@
 } catch(Exception e){
 %>
 <h3><%= e.getMessage() %></h3>
-<a href="list.jsp" class="btn btn-secondary">목록으로 돌아가기</a>
 <%
     }
 %>
