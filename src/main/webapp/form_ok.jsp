@@ -23,6 +23,6 @@
 <p><b>이메일:</b> <%= email != null ? email : "없음" %></p>
 <p>게시글이 정상적으로 등록되었습니다.</p>
 
-<a href="form.html">새 글 작성</a> | <a href="list.jsp">목록 보기</a>
+<a href="form.html">새 글 작성</a>
 </body>
 </html>
