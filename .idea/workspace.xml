@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0a88fd3e-28ae-4ad4-9725-4f6f252b3934" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/form_ok.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "Docker.tomcat9_docker.executor": "Run",
+    "Maven.HelloJSPProject [clean].executor": "Run",
     "Maven.HelloJSPProject [package].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -90,7 +92,7 @@
       <recent name="C:\Users\user\Desktop\공부\한동 2025\WSD\HelloJSPProject\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat 서버.Tomcat 9.0.111">
+  <component name="RunManager" selected="Docker.tomcat9_docker">
     <configuration name="Tomcat 9.0.111" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.111" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="HelloJSPProject:war exploded">
@@ -219,6 +221,7 @@
       <workItem from="1763020680231" duration="851000" />
       <workItem from="1763082167085" duration="2411000" />
       <workItem from="1763290318094" duration="11357000" />
+      <workItem from="1763342749640" duration="1810000" />
     </task>
     <servers />
   </component>
