@@ -1,6 +1,5 @@
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>작성 완료</title>
@@ -14,9 +13,10 @@
     String content = request.getParameter("content");
     String email = request.getParameter("email");
     String password = request.getParameter("password");
-    <form method="post" action="form.jsp"></form>
 
 %>
+
+<form method="post" action="form.html"></form>
 <p><b>제목:</b> <%= title %></p>
 <p><b>작성자:</b> <%= author %></p>
 <p><b>내용:</b> <pre><%= content %></pre></p>
